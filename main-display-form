@@ -1,0 +1,33 @@
+<html>
+<head>
+</head>
+<body>
+  <form><center>
+   
+   Please enter the address of the victim: <br>
+   <input type="text" name="Victim-address"> <br></br></br>
+   Please enter the address of the abuser: <br>
+   <input type="text" name="Abuser-address"> </br><br></br>
+   What event actually occurred? <br>
+   <input type="text" name="Actual-event"> </br><br></br>
+   What event was actually reported? <br>
+   <input type="text" name="Event-Reported"> </br><br></br>
+   Where did the event occur? <br>
+   <input type="text" name="event-Location"> </br><br></br>
+   Give a brief description of the abuse: <br>
+   <input type="text" name="abuse-description"> </br><br>
+   Date of Abuse <br>
+   <input type="text" name="abuse-date"></br><br></br>
+   <input type="submit" name="Submit"></br>
+
+  </center></form>
+  <style>
+  input[type=text] {
+  border: 4px solid black;
+  border-radius: 6px;
+  width: 500px;
+  height: 45px;
+}
+  </style>
+</body>
+</html>
